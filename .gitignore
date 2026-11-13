@@ -33,3 +33,6 @@
 !/outdoor.exr
 **/render.state
 **/render.exit
+**/*.exit
+**/frames_titled/
+**/preview/
