@@ -31,3 +31,5 @@
 !/*.py
 !/*.md
 !/outdoor.exr
+**/render.state
+**/render.exit
