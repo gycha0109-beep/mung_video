@@ -1,0 +1,44 @@
+{
+  "source": "cinematic_50m_v11_extension\\steel\\STEEL_V11_50M_SINGLE_SCENE.blend",
+  "frame": 94,
+  "camera_matrix": [
+    [
+      0.9897905,
+      -0.01459465,
+      0.14178067,
+      0.36000001
+    ],
+    [
+      0.14252986,
+      0.10135159,
+      -0.98458779,
+      -7.98204565
+    ],
+    [
+      2e-08,
+      0.99474359,
+      0.10239702,
+      1.59352267
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "camera_lens": 37.0,
+  "original_resolution": [
+    720,
+    1280
+  ],
+  "render": "Cycles",
+  "samples": 48,
+  "materials": {
+    "brick": 272,
+    "mortar": 0,
+    "steel": 1,
+    "ground": 2
+  },
+  "device": "GPU"
+}
