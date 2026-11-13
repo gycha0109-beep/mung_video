@@ -1,0 +1,178 @@
+{
+  "seed": 20261113,
+  "total": 20,
+  "broken": 17,
+  "remaining": 3,
+  "stop_pane": 18,
+  "frames": 192,
+  "fps": 24,
+  "resolution": [
+    720,
+    1280
+  ],
+  "break_events": [
+    {
+      "number": 1,
+      "frame": 57,
+      "y": 0.0,
+      "required_energy": 3.82,
+      "energy_after": 108.18,
+      "broken": true
+    },
+    {
+      "number": 2,
+      "frame": 60,
+      "y": 1.65,
+      "required_energy": 4.467,
+      "energy_after": 103.713,
+      "broken": true
+    },
+    {
+      "number": 3,
+      "frame": 64,
+      "y": 3.3,
+      "required_energy": 4.484,
+      "energy_after": 99.229,
+      "broken": true
+    },
+    {
+      "number": 4,
+      "frame": 67,
+      "y": 4.949999999999999,
+      "required_energy": 4.917,
+      "energy_after": 94.312,
+      "broken": true
+    },
+    {
+      "number": 5,
+      "frame": 72,
+      "y": 6.6,
+      "required_energy": 4.845,
+      "energy_after": 89.467,
+      "broken": true
+    },
+    {
+      "number": 6,
+      "frame": 76,
+      "y": 8.25,
+      "required_energy": 5.157,
+      "energy_after": 84.31,
+      "broken": true
+    },
+    {
+      "number": 7,
+      "frame": 81,
+      "y": 9.899999999999999,
+      "required_energy": 5.474,
+      "energy_after": 78.836,
+      "broken": true
+    },
+    {
+      "number": 8,
+      "frame": 86,
+      "y": 11.549999999999999,
+      "required_energy": 5.707,
+      "energy_after": 73.129,
+      "broken": true
+    },
+    {
+      "number": 9,
+      "frame": 91,
+      "y": 13.2,
+      "required_energy": 5.989,
+      "energy_after": 67.139,
+      "broken": true
+    },
+    {
+      "number": 10,
+      "frame": 97,
+      "y": 14.85,
+      "required_energy": 6.301,
+      "energy_after": 60.838,
+      "broken": true
+    },
+    {
+      "number": 11,
+      "frame": 103,
+      "y": 16.5,
+      "required_energy": 6.691,
+      "energy_after": 54.147,
+      "broken": true
+    },
+    {
+      "number": 12,
+      "frame": 109,
+      "y": 18.15,
+      "required_energy": 6.968,
+      "energy_after": 47.179,
+      "broken": true
+    },
+    {
+      "number": 13,
+      "frame": 116,
+      "y": 19.799999999999997,
+      "required_energy": 7.36,
+      "energy_after": 39.82,
+      "broken": true
+    },
+    {
+      "number": 14,
+      "frame": 123,
+      "y": 21.45,
+      "required_energy": 7.726,
+      "energy_after": 32.094,
+      "broken": true
+    },
+    {
+      "number": 15,
+      "frame": 130,
+      "y": 23.099999999999998,
+      "required_energy": 8.056,
+      "energy_after": 24.038,
+      "broken": true
+    },
+    {
+      "number": 16,
+      "frame": 138,
+      "y": 24.75,
+      "required_energy": 8.304,
+      "energy_after": 15.733,
+      "broken": true
+    },
+    {
+      "number": 17,
+      "frame": 146,
+      "y": 26.4,
+      "required_energy": 8.482,
+      "energy_after": 7.251,
+      "broken": true
+    },
+    {
+      "number": 18,
+      "frame": 154,
+      "y": 28.049999999999997,
+      "required_energy": 9.008,
+      "energy_after": 7.251,
+      "broken": false
+    },
+    {
+      "number": 19,
+      "frame": 163,
+      "y": 29.7,
+      "required_energy": 9.305,
+      "energy_after": 7.251,
+      "broken": false
+    },
+    {
+      "number": 20,
+      "frame": 172,
+      "y": 31.349999999999998,
+      "required_energy": 9.489,
+      "energy_after": 7.251,
+      "broken": false
+    }
+  ],
+  "shards": 816,
+  "scene": "GLASS_20_PANEL_CHALLENGE_V1.blend",
+  "note": "Stylized kinetic-energy attenuation for ball; released glass shards use Blender rigid-body dynamics, not fully coupled fracture."
+}
