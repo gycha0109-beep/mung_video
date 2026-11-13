@@ -1,0 +1,3 @@
+file 'C:\Users\M\Downloads\slingshot_quality_proof\three_shots\01_EGG_SLINGSHOT.mp4'
+file 'C:\Users\M\Downloads\slingshot_quality_proof\three_shots\02_STEEL_SLINGSHOT.mp4'
+file 'C:\Users\M\Downloads\slingshot_quality_proof\three_shots\03_BILLIARD_8_SLINGSHOT.mp4'

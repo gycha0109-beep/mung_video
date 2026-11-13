@@ -1,0 +1,8 @@
+Three videos x 192 frames = 8s each, 24s master.
+0-2sec 48 original chronological 20m-setup launch frames.
+2-4sec 48 new chronological 20m flight frames (20.56m, Blender scene coordinates).
+4-5.5sec ORIGINAL verified high-fidelity physics frames 13-48, no retime.
+5.5-8sec camera push-in over physically settled aftermath; no slow motion, no frame holds/shake.
+The final 2.5sec camera movement is a 2D reframing of the last original physics image; no additional rigid-body movement is claimed.
+720x1280,24fps,H264/AAC; decoding verified. Original source assets preserved.
+Master: C:\Users\M\Downloads\slingshot_quality_proof\cinematic_20m_v4\final\SLINGSHOT_THREE_MATERIALS_20M_24SEC_MASTER_V5.mp4

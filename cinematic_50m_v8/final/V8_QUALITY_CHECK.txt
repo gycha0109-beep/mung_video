@@ -1,0 +1,7 @@
+50.56m measured world coordinate path on source projectile (frame48 to96).
+ALL THREE: 8 sec / 192 frames / 720x1280 / 24fps / H.264 / AAC / decode PASS.
+MASTER: 24 sec / 576 frames / decode PASS.
+2-4 sec: 50m flight with two physically grounded camera shots.
+4-8 sec: source collision fixed camera. No zoom, no dolly, no temporal stretching.
+Master: C:\Users\M\Downloads\slingshot_quality_proof\cinematic_50m_v8\final\SLINGSHOT_50M_THREE_MATERIALS_24SEC_MASTER_V8.mp4
+Comparison: C:\Users\M\Downloads\slingshot_quality_proof\cinematic_50m_v8\final\VIEW_50M_V8.html

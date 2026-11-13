@@ -1,0 +1,6 @@
+Actual 50.56m launch path; revised elastic release and dynamic tracking.
+8.00s, 192 frames, 720x1280, 24fps H264 AAC verified.
+First 96 launch frames and 96 physical impact frames newly rendered.
+Static post-impact camera, no zoom.
+Status: REVIEW PREVIEW, visual approval not yet established; original V8 preserved.
+Compare: C:\Users\M\Downloads\slingshot_quality_proof\cinematic_50m_v9_egg\VIEW_EGG_V8_VS_V9.html

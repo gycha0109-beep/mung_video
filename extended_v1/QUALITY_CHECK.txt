@@ -1,0 +1,8 @@
+01_EGG_EXTENDED_V1.mp4: PASS | 180 decoded frames | 7.50 sec | 720x1280 | AAC | mean brightness 118.5..158.4 | 2,291,847 bytes
+02_STEEL_EXTENDED_V1.mp4: PASS | 180 decoded frames | 7.50 sec | 720x1280 | AAC | mean brightness 110.7..148.2 | 2,537,105 bytes
+03_BILLIARD_EXTENDED_V1.mp4: PASS | 180 decoded frames | 7.50 sec | 720x1280 | AAC | mean brightness 105.5..146.6 | 2,173,416 bytes
+SLINGSHOT_THREE_MATERIALS_EXTENDED_V1_MASTER.mp4: PASS | 540 decoded frames | 22.50 sec | 720x1280 | AAC | mean brightness 105.5..158.4 | 6,999,812 bytes
+AUDIO egg: 48kHz stereo, RMS=0.0340
+AUDIO steel: 48kHz stereo, RMS=0.0415
+AUDIO billiard: 48kHz stereo, RMS=0.0257
+Original MP4 and .blend files retained. Extended segments rendered for egg and billiard (frames 59..82). Impact scene uses original physics frames with optical-flow slow motion. Launch/impact use a deliberately visible action camera cut; no continuous single-scene simulation is claimed.

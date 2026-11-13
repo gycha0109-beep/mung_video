@@ -1,0 +1,28 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>새총 50m V8 | 속도감 비교</title>
+<style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{background:#0b1018;color:#eff3f7;margin:0;font-family:system-ui,"Malgun Gothic",sans-serif;padding:24px}
+main{max-width:1280px;margin:auto}h1{font-size:1.8rem;margin-bottom:.3em}p{color:#b5c0d0;line-height:1.5;margin-top:0}
+.toolbar{display:flex;flex-wrap:wrap;gap:9px;margin:14px 0}button{cursor:pointer;padding:11px 15px;border:1px solid #4d6687;background:#1c2f4b;color:#fff;border-radius:8px}
+button.active{background:#396bb0}button:hover{background:#3a587d}.grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+article{background:#171e2a;padding:13px;border:1px solid #324158;border-radius:12px}h2{font-size:1.04rem;margin:0 0 8px}
+video{background:#000;display:block;width:100%;max-height:660px;border-radius:7px;object-fit:contain}
+aside{margin-top:20px;max-width:640px}aside video{max-height:unset}small{color:#bbc5d3}
+@media(max-width:720px){body{padding:10px}.grid{gap:6px}article{padding:6px}h2{font-size:.88rem}button{flex:1 1 auto}}
+</style></head><body><main>
+<h1>새총 V8 — 50m 고속 비행</h1><p>실제 장면 거리 50.56m · 8초 · 24fps. 기존 20m와 속도감, 투사체 디자인, 충돌 후 구도 비교. <strong>클로즈업 없음.</strong></p>
+<div class="toolbar"><button id="egg" class="active" onclick="choose('egg')">계란</button><button id="steel" onclick="choose('steel')">쇠구슬</button><button id="billiard" onclick="choose('billiard')">8번 당구공</button></div>
+<div class="toolbar"><button onclick="both('play')">동시 재생</button><button onclick="both('pause')">일시정지</button><button onclick="seek(2)">발사부터 보기</button><button onclick="seek(0)">처음부터 보기</button></div>
+<div class="grid">
+<article><h2>이전 / 20m V5</h2><video id="a" controls playsinline loop preload="metadata" src="../../cinematic_20m_v4/final/01_EGG_20M_8SEC_V5.mp4"></video></article>
+<article><h2>변경 / 50m V8</h2><video id="b" controls playsinline loop preload="metadata" src="01_EGG_50M_8SEC_V8.mp4"></video></article>
+</div>
+<aside><h2>50m 3종 합본 / 24초</h2><video controls playsinline preload="metadata" src="SLINGSHOT_50M_THREE_MATERIALS_24SEC_MASTER_V8.mp4"></video></aside>
+<p><small>V8: 발사체 실루엣과 광택 조정, 콘크리트 거리 표식, 발사체보다 느린 전방 카메라, 벽 근처 고정 카메라의 빠른 회전, 충돌 후 고정 광각 카메라. 충돌 물리/재료는 기존 원본 자산 기반. 마지막 4초는 확대하지 않습니다.</small></p>
+</main><script>
+const names={egg:["01_EGG_20M_8SEC_V5.mp4","01_EGG_50M_8SEC_V8.mp4"],steel:["02_STEEL_20M_8SEC_V5.mp4","02_STEEL_50M_8SEC_V8.mp4"],billiard:["03_BILLIARD_20M_8SEC_V5.mp4","03_BILLIARD_50M_8SEC_V8.mp4"]};
+const a=document.getElementById('a'),b=document.getElementById('b');
+function choose(k){a.pause();b.pause();a.src='../../cinematic_20m_v4/final/'+names[k][0];b.src=names[k][1];Object.keys(names).forEach(v=>document.getElementById(v).classList.toggle('active',v===k));a.load();b.load();}
+function both(v){if(v==='pause'){a.pause();b.pause();}else{b.currentTime=a.currentTime;a.play().catch(()=>{});b.play().catch(()=>{});}}
+function seek(t){a.pause();b.pause();a.currentTime=t;b.currentTime=t;setTimeout(()=>{a.play().catch(()=>{});b.play().catch(()=>{});},140)}
+</script></body></html>

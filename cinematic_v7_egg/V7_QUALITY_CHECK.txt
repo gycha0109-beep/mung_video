@@ -1,0 +1,6 @@
+8 sec 192 frames 720x1280 24fps H.264+AAC: PASS
+Decoder and audio: PASS
+V6 vs V7 60-frame side-by-side tail: PASS
+0-5.5s from unchanged original launch and physical impact
+5.5-8s 60 new renders: chained shell fall, secondary contact, liquid gravity + timed puddle expansion.
+No slow motion. No simulated fluid solver claim; liquid is procedural keyframe animation.

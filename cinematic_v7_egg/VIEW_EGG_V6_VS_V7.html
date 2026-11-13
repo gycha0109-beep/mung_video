@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>계란 V7 — 연쇄 반응 비교</title>
+<style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{background:#0c0e13;color:#f0f2f4;font-family:system-ui,"Malgun Gothic",sans-serif;margin:0;padding:24px}
+main{max-width:1320px;margin:auto}h1{font-size:1.55rem;margin:0 0 8px}p{color:#b8bec9;line-height:1.55}.tag{font-size:12px;color:#a0a9bb;border:1px solid #424654;border-radius:6px;padding:5px 8px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.panel{padding:14px;background:#171c26;border:1px solid #30394a;border-radius:12px}
+.panel h2{font-size:1rem;margin:0 0 10px}video{width:100%;max-height:650px;background:#000;object-fit:contain;border-radius:7px}
+.toolbar{display:flex;flex-wrap:wrap;gap:9px;margin:15px 0}
+button{background:#28384e;border:1px solid #4e6786;border-radius:8px;color:white;padding:10px 15px;cursor:pointer}button:hover{background:#395773}
+footer{margin-top:24px}.split{max-width:960px;margin:auto}.split video{max-height:unset}
+small{color:#c6cfdd}.accent{color:#c4ddff}
+@media(max-width:700px){body{padding:10px}.grid{gap:7px}.panel{padding:6px}.panel h2{font-size:.85rem}video{max-height:540px}.toolbar button{flex:1 1 35%}}
+</style></head>
+<body><main>
+<h1>계란 충돌 영상 — V6 / V7 비교</h1>
+<p>두 버전 모두 8초·24fps·720×1280. <span class="accent">0~5.5초는 동일한 원본</span>이며, 달라지는 구간은 5.5~8초입니다. 정지 화면이 아닌 <strong>실제 움직임</strong>을 비교해 주세요.</p>
+<div class="toolbar">
+<button onclick="both('play')">두 영상 동시에 재생</button>
+<button onclick="both('pause')">일시정지</button>
+<button onclick="seek(5.5)">5.5초부터 비교</button>
+<button onclick="seek(0)">처음부터 보기</button>
+</div>
+<div class="grid">
+<div class="panel"><h2>V6 — 벽면 흐름 / 확대 중심</h2>
+<video id="before" controls playsinline preload="metadata" loop src="../cinematic_v6_egg/EGG_20M_8SEC_V6.mp4"></video></div>
+<div class="panel"><h2>V7 — 껍질 낙하 → 바닥 충돌 → 액체 재낙하</h2>
+<video id="after" controls playsinline preload="metadata" loop src="EGG_20M_8SEC_V7.mp4"></video></div>
+</div>
+<footer><h2>후반 2.5초만 한 화면에서 보기</h2>
+<div class="split"><video controls playsinline loop preload="metadata" src="V6_V7_AFTERMATH_SPLIT.mp4"></video></div>
+<p><small>영상 개선 범위: 충돌 후 떨어지는 껍질, 두 차례의 액체 낙하와 바닥 흔적, 물체를 따라가는 카메라, 충돌과 맞춘 소리. 액체는 실제 유체 시뮬레이션이 아니라 중력 운동을 적용한 키프레임 연출입니다. 원본 계란 자국의 형태와 벽돌 표면은 아직 개선 대상입니다.</small></p>
+</footer></main>
+<script>
+const v=[document.getElementById('before'),document.getElementById('after')];
+function both(action){if(action==='pause'){v.forEach(x=>x.pause())}else{v[1].currentTime=v[0].currentTime;v.forEach(x=>x.play().catch(()=>{}));}}
+function seek(t){v.forEach(x=>{x.pause();x.currentTime=t;});setTimeout(()=>v.forEach(x=>x.play().catch(()=>{})),140);}
+</script></body></html>

@@ -1,0 +1,8 @@
+V4 VERIFIED 3 x 8.00s = 24.00s
+0..2 sec: slingshot draw / aim, 48 unique chronological frames
+2..4 sec: 20.56m scene-space projectile travel, 48 unique chronological frames
+4..8 sec: 96 consecutive, non-retimed Blender rigid-body/impact frames 13..108
+No deliberate slow-motion/frame repetition/screen shake.
+720x1280 24fps H264 AAC; all MP4 decoding validated.
+Original scene/render files untouched.
+Master: C:\Users\M\Downloads\slingshot_quality_proof\cinematic_20m_v4\final\SLINGSHOT_THREE_MATERIALS_20M_24SEC_MASTER_V4.mp4

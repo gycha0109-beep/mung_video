@@ -1,0 +1,23 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>50m 계란 V9T / V10 한 장면 비교</title><style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{background:#0d1119;color:#f0f3fa;font-family:system-ui,"Malgun Gothic",sans-serif;padding:22px;margin:0}
+main{max-width:1300px;margin:auto}h1{font-size:1.55rem;margin-bottom:8px}p{color:#b8c2d3}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+article{background:#19212e;border:1px solid #394557;border-radius:12px;padding:14px}
+video{width:100%;height:auto;max-height:700px;background:#000;border-radius:7px;display:block;object-fit:contain}
+button{cursor:pointer;background:#263b57;border:1px solid #526b8b;color:white;padding:10px 13px;border-radius:6px;margin:4px}
+@media(max-width:700px){.grid{gap:6px}article{padding:6px}body{padding:9px}h2{font-size:.85rem}}
+</style></head><body><main>
+<h1>새총 50m 계란 — 이전 전환 화면 vs V10 연속 장면</h1>
+<p>관찰 기준: ① 발사 장력과 폭발감 ② 투사체가 떠 있는 느낌 감소 ③ 벽 충돌의 힘 ④ 바닥·벽돌·투사체 질감. <strong>충돌 후 확대는 없습니다. 카메라 전환을 줄인 두 화면 구성을 비교합니다.</strong></p>
+<div><button onclick="sync('play')">동시 재생</button><button onclick="sync('pause')">일시정지</button><button onclick="seek(2)">2초부터 비교</button><button onclick="seek(4)">4초 충돌부터</button><button onclick="seek(0)">처음부터</button></div>
+<div class="grid">
+<article><h2>V9T — 다른 충돌 장면으로 전환</h2><video id="a" controls playsinline loop preload="metadata" src="../cinematic_50m_v9t_egg/EGG_50M_8SEC_TRACKLOCK_V9T.mp4"></video></article>
+<article><h2>V10 — 카메라 멈춤, 한 장면 충돌</h2><video id="b" controls playsinline loop preload="metadata" src="EGG_50M_8SEC_V10_UNCUT.mp4"></video></article>
+</div>
+<p>V10은 50m 발사 후 <strong>벽 충돌 약 5.5m 전</strong>까지 계란을 따라가다가 카메라가 그 자리에 멈춥니다. <strong>벽·바닥·조명·카메라를 교체하지 않고 한 Blender 장면에서 충돌까지</strong> 진행합니다. 잘못 배치된 가죽 링 13개를 제거했습니다. 충돌 액체 효과는 기존 V9의 스타일을 유지했습니다.</p>
+</main><script>
+const a=document.getElementById('a'),b=document.getElementById('b');
+function sync(mode){if(mode==='pause'){a.pause();b.pause()}else{b.currentTime=a.currentTime;a.play().catch(()=>{});b.play().catch(()=>{})}}
+function seek(t){a.pause();b.pause();a.currentTime=t;b.currentTime=t;setTimeout(()=>{a.play().catch(()=>{});b.play().catch(()=>{})},140)}
+</script></body></html>

@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>새총 V2 실제 렌더링 비교</title>
+<style>
+:root{color-scheme:dark;font-family:"Malgun Gothic",system-ui,sans-serif}*{box-sizing:border-box}body{background:#0c1016;color:#ecedf1;margin:0}main{max-width:1200px;margin:auto;padding:28px 18px 100px}
+h1{font-size:26px;margin:0 0 10px}h2{font-size:21px;border-top:1px solid #303743;padding-top:24px;margin-top:38px}p{color:#aab7c9;line-height:1.7}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.tile{background:#171d26;padding:12px;border:1px solid #313948;border-radius:12px}
+h3{font-size:14px;margin:0 0 10px;color:#dce4f1}
+video{display:block;width:100%;height:min(72vh,470px);object-fit:contain;background:#000;border-radius:8px}
+.master{max-width:390px}
+.note{font-size:13px}strong{color:#fff}@media(max-width:900px){.grid{grid-template-columns:1fr}video{height:420px}}
+</style></head><body><main>
+<h1>새총 영상 V2 — 실제 결과물 비교</h1><p><strong>이번 수정:</strong> 발사 동작·고무밴드 장력·발사체 가속·카메라 경로 재작업, 충돌 카메라 흔들림 제거.</p>
+<h2>3종 합본</h2><div class="tile master"><video controls playsinline preload="metadata" src="SLINGSHOT_THREE_MATERIALS_CINEMATIC_V3_MASTER.mp4"></video></div>
+<section><h2>01 계란</h2><div class="grid">
+<div class="tile"><h3>초기 완성본 4.42초</h3><video controls playsinline preload="metadata" src="../three_shots/01_EGG_SLINGSHOT.mp4"></video></div>
+<div class="tile"><h3>이전 개선본 7.5초</h3><video controls playsinline preload="metadata" src="../extended_v1/01_EGG_EXTENDED_V1.mp4"></video></div>
+<div class="tile"><h3>새 렌더링 V3 7.0초</h3><video controls playsinline preload="metadata" src="01_EGG_CINEMATIC_V3.mp4"></video></div>
+</div></section>
+<section><h2>02 쇠구슬</h2><div class="grid">
+<div class="tile"><h3>초기 완성본 4.42초</h3><video controls playsinline preload="metadata" src="../three_shots/02_STEEL_SLINGSHOT.mp4"></video></div>
+<div class="tile"><h3>이전 개선본 7.5초</h3><video controls playsinline preload="metadata" src="../extended_v1/02_STEEL_EXTENDED_V1.mp4"></video></div>
+<div class="tile"><h3>새 렌더링 V3 7.0초</h3><video controls playsinline preload="metadata" src="02_STEEL_CINEMATIC_V3.mp4"></video></div>
+</div></section>
+<section><h2>03 8번 당구공</h2><div class="grid">
+<div class="tile"><h3>초기 완성본 4.42초</h3><video controls playsinline preload="metadata" src="../three_shots/03_BILLIARD_8_SLINGSHOT.mp4"></video></div>
+<div class="tile"><h3>이전 개선본 7.5초</h3><video controls playsinline preload="metadata" src="../extended_v1/03_BILLIARD_EXTENDED_V1.mp4"></video></div>
+<div class="tile"><h3>새 렌더링 V3 7.0초</h3><video controls playsinline preload="metadata" src="03_BILLIARD_CINEMATIC_V3.mp4"></video></div>
+</div></section>
+<p class="note">V3는 실제 Blender로 재렌더링한 발사 구간과 충돌 이후 슬로모션을 포함합니다. 중반부 충돌은 원래 검증된 물리 시뮬레이션을 유지합니다. 충돌 이후는 시간 순서를 보존한 슬로모션입니다. 물리적 단일 장면으로 통합한 것은 아닙니다.</p>
+</main></body></html>

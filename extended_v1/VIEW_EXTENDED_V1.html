@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>새총 3종 | 기존 · 개선본 비교</title>
+<style>
+:root{color-scheme:dark;font-family:system-ui,"Malgun Gothic",sans-serif}
+*{box-sizing:border-box}body{margin:0;background:#101318;color:#f2f4f8}
+main{max-width:1180px;margin:auto;padding:32px 24px 90px}
+h1{font-size:26px;margin:0 0 8px}h2{font-size:20px;margin:28px 0 13px}
+p{color:#aab2c0;line-height:1.7}small{color:#aab2c0}
+section{border-top:1px solid #303844;padding:8px 0 12px}
+.video-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.panel{background:#1c212a;padding:15px;border-radius:14px}
+.panel h3{font-size:15px;font-weight:600;margin:0 0 10px;color:#dde2eb}
+video{display:block;max-height:475px;width:100%;background:#090a0c;border-radius:10px;object-fit:contain}
+.master{max-width:310px}.meta{display:inline-block;padding:5px 10px;border:1px solid #48536a;border-radius:24px;margin:8px 6px 8px 0}
+@media(max-width:640px){main{padding:20px 14px}.video-grid{grid-template-columns:1fr}video{max-height:420px}}
+</style>
+</head>
+<body><main>
+<h1>새총 3D 만족감 영상 — 개선본 V1</h1>
+<p>원본을 보존한 상태에서 촬영 연출·발사 비행·충돌 후 장면을 개선했습니다. 아래 영상들은 실제 결과물입니다.</p>
+<span class="meta">720 × 1280</span><span class="meta">24fps</span><span class="meta">H.264 + AAC</span>
+<section><h2>3종 합본 · 22.50초</h2>
+<div class="panel master"><video controls playsinline preload="metadata" src="SLINGSHOT_THREE_MATERIALS_EXTENDED_V1_MASTER.mp4"></video></div></section>
+<section><h2>01 · 계란</h2><div class="video-grid">
+<div class="panel"><h3>기존 4.42초</h3><video controls playsinline preload="metadata" src="../three_shots/01_EGG_SLINGSHOT.mp4"></video></div>
+<div class="panel"><h3>개선 7.50초</h3><video controls playsinline preload="metadata" src="01_EGG_EXTENDED_V1.mp4"></video></div>
+</div></section>
+<section><h2>02 · 쇠구슬</h2><div class="video-grid">
+<div class="panel"><h3>기존 4.42초</h3><video controls playsinline preload="metadata" src="../three_shots/02_STEEL_SLINGSHOT.mp4"></video></div>
+<div class="panel"><h3>개선 7.50초</h3><video controls playsinline preload="metadata" src="02_STEEL_EXTENDED_V1.mp4"></video></div>
+</div></section>
+<section><h2>03 · 8번 당구공</h2><div class="video-grid">
+<div class="panel"><h3>기존 4.42초</h3><video controls playsinline preload="metadata" src="../three_shots/03_BILLIARD_8_SLINGSHOT.mp4"></video></div>
+<div class="panel"><h3>개선 7.50초</h3><video controls playsinline preload="metadata" src="03_BILLIARD_EXTENDED_V1.mp4"></video></div>
+</div></section>
+<p>개선본은 기존 물리 충돌 렌더링을 재사용해 후반 동작을 느리게 표현했습니다. 비행과 충돌 장면 사이에는 의도적인 카메라 전환이 남아 있으며, 하나의 연속 물리 시뮬레이션으로 제작한 영상은 아닙니다.</p>
+</main></body></html>

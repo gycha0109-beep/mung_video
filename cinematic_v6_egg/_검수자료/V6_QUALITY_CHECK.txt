@@ -1,0 +1,9 @@
+V6 EGG VERIFIED: 192 frames, 8s, 720x1280 24fps H.264 + AAC
+0-2s: existing source draw and aim 48 unique frames.
+2-4s: existing 20.56m source flight 48 unique frames.
+4-5.5s: 36 original validated physical impact frames (no retime).
+5.5-8s: 60 NEW Blender-rendered chronological animation frames 49-108, with physically scripted yolk drips, falling drops, scattered shell chips, and dolly (no static zoom).
+NO slow motion or screen shake.
+Original source unchanged. Old V5: C:\Users\M\Downloads\slingshot_quality_proof\cinematic_20m_v4\final\01_EGG_20M_8SEC_V5.mp4
+New V6: C:\Users\M\Downloads\slingshot_quality_proof\cinematic_v6_egg\EGG_20M_8SEC_V6.mp4
+Full decoder validation: PASS.

@@ -1,0 +1,57 @@
+CAM CINEMATIC CAMERA (1.65, -5.1, 1.69) 31.0
+OBJ PHYSICS 8 BALL type=MESH rigid=ACTIVE
+OBJ 8 numbered billiard type=FONT rigid=None
+FRAME 1
+PHYSICS 8 BALL (-0.31, -3.1, 1.503) render=False
+8 numbered billiard (-0.31, -3.247, 1.503) render=False
+FRAME 7
+PHYSICS 8 BALL (-0.162, -1.716, 1.436) render=False
+8 numbered billiard (-0.162, -1.863, 1.436) render=False
+FRAME 10
+PHYSICS 8 BALL (-0.075, -0.928, 1.396) render=False
+8 numbered billiard (-0.075, -1.075, 1.396) render=False
+FRAME 12
+PHYSICS 8 BALL (-0.026, -0.445, 1.374) render=False
+8 numbered billiard (-0.026, -0.592, 1.374) render=False
+FRAME 13
+PHYSICS 8 BALL (-0.003, -0.305, 1.357) render=False
+8 numbered billiard (0.004, -0.452, 1.35) render=False
+FRAME 14
+PHYSICS 8 BALL (0.015, -0.305, 1.326) render=False
+8 numbered billiard (0.04, -0.448, 1.305) render=False
+FRAME 18
+PHYSICS 8 BALL (0.088, -0.305, 1.034) render=False
+8 numbered billiard (0.171, -0.403, 0.963) render=False
+FRAME 21
+PHYSICS 8 BALL (0.142, -0.305, 0.639) render=False
+8 numbered billiard (0.25, -0.345, 0.547) render=False
+FRAME 26
+PHYSICS 8 BALL (0.221, -0.456, 0.15) render=False
+8 numbered billiard (0.3, -0.34, 0.105) render=False
+FRAME 32
+PHYSICS 8 BALL (0.295, -0.804, 0.15) render=False
+8 numbered billiard (0.339, -0.82, 0.289) render=False
+FRAME 38
+PHYSICS 8 BALL (0.368, -1.146, 0.15) render=False
+8 numbered billiard (0.489, -1.188, 0.078) render=False
+FRAME 48
+PHYSICS 8 BALL (0.485, -1.699, 0.15) render=False
+8 numbered billiard (0.527, -1.707, 0.291) render=False
+FRAME 49
+PHYSICS 8 BALL (0.485, -1.699, 0.15) render=False
+8 numbered billiard (0.527, -1.707, 0.291) render=False
+FRAME 55
+PHYSICS 8 BALL (0.485, -1.699, 0.15) render=False
+8 numbered billiard (0.527, -1.707, 0.291) render=False
+FRAME 62
+PHYSICS 8 BALL (0.485, -1.699, 0.15) render=False
+8 numbered billiard (0.527, -1.707, 0.291) render=False
+FRAME 75
+PHYSICS 8 BALL (0.485, -1.699, 0.15) render=False
+8 numbered billiard (0.527, -1.707, 0.291) render=False
+FRAME 90
+PHYSICS 8 BALL (0.485, -1.699, 0.15) render=False
+8 numbered billiard (0.527, -1.707, 0.291) render=False
+FRAME 108
+PHYSICS 8 BALL (0.485, -1.699, 0.15) render=False
+8 numbered billiard (0.527, -1.707, 0.291) render=False

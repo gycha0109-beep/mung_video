@@ -1,0 +1,19 @@
+Wall top coping                              loc=(0.0, 0.2, 3.63) dim=(7.45, 0.58, 0.27) scale=(1.0, 1.0, 1.0)
+Carved wooden slingshot handle               loc=(0.0, -9.3, 1.12) dim=(0.188, 0.188, 0.8) scale=(1.0, 1.0, 1.0)
+Solid oak Y arm LEFT                         loc=(-0.16, -9.31, 1.765) dim=(0.134, 0.134, 0.586) scale=(1.0, 1.0, 1.0)
+Solid oak Y arm RIGHT                        loc=(0.16, -9.31, 1.765) dim=(0.134, 0.134, 0.586) scale=(1.0, 1.0, 1.0)
+POLISHED STEEL SHOT                          loc=(0.0, -9.57, 1.79) dim=(0.234, 0.242, 0.341) scale=(1.0, 1.0, 1.0)
+CINEMA CAMERA                                loc=(0.1, -11.75, 1.97) dim=(0.0, 0.0, 0.0) scale=(1.0, 1.0, 1.0)
+Side metallic specular highlight             loc=(3.0, -9.0, 3.7) dim=(0.0, 0.0, 0.0) scale=(1.0, 1.0, 1.0)
+Late afternoon sunlight                      loc=(-2.0, -3.0, 8.0) dim=(0.0, 0.0, 0.0) scale=(1.0, 1.0, 1.0)
+SHOT POUCH / rig                             loc=(0.0, -9.57, 1.79) dim=(0.0, 0.0, 0.0) scale=(1.0, 1.0, 1.0)
+Pouch leather reinforced loop LEFT           loc=(-0.202, -0.077, 0.015) dim=(0.059, 0.037, 0.094) scale=(0.82, 0.52, 1.3)
+Pouch metal eyelet LEFT                      loc=(-0.206, -0.103, 0.019) dim=(0.022, 0.014, 0.022) scale=(0.85, 0.55, 0.85)
+Pouch leather reinforced loop RIGHT          loc=(0.202, -0.077, 0.015) dim=(0.059, 0.037, 0.094) scale=(0.82, 0.52, 1.3)
+Pouch metal eyelet RIGHT                     loc=(0.206, -0.103, 0.019) dim=(0.022, 0.014, 0.022) scale=(0.85, 0.55, 0.85)
+TENSIONED LATEX / LEFT                       loc=(-0.262, -9.489, 1.909) dim=(0.065, 0.025, 0.394) scale=(0.065, 0.025, 0.394)
+TENSIONED LATEX / RIGHT                      loc=(0.262, -9.489, 1.909) dim=(0.065, 0.025, 0.394) scale=(0.065, 0.025, 0.394)
+BALL materials [('egg projectile finish', (0.800000011920929, 0.800000011920929, 0.800000011920929, 1.0), True)]
+BALL rot (0.0, 0.0, 0.0) modifiers []
+WORLD <bpy_struct, World("Bright cloudy outdoor ambience") at 0x000001564EDCDFA0>
+camera CINEMA CAMERA

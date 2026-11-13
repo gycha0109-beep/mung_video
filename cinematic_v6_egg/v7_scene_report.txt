@@ -1,0 +1,268 @@
+SCENE frame 1-48 camera CINEMATIC CAMERA
+FRAME 13 CAM pos [1.65, -5.1, 1.69] rot [1.508, -0.0, 0.337] lens 31.00
+FRAME 24 CAM pos [1.65, -5.1, 1.69] rot [1.508, -0.0, 0.337] lens 31.00
+FRAME 38 CAM pos [1.65, -5.1, 1.69] rot [1.508, -0.0, 0.337] lens 31.00
+FRAME 48 CAM pos [1.65, -5.1, 1.69] rot [1.508, -0.0, 0.337] lens 31.00
+OBJ PHYSICS EGG SHELL BEFORE IMPACT            MESH  pos=(-0.310,-3.100,1.503) dim=(0.252, 0.252, 0.378) hide=True RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 00 00                   MESH  pos=(0.000,-0.310,1.362) dim=(0.098, 0.057, 0.07) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 00 01                   MESH  pos=(0.000,-0.310,1.362) dim=(0.089, 0.089, 0.07) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 00 02                   MESH  pos=(0.000,-0.310,1.362) dim=(0.057, 0.098, 0.07) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 00 03                   MESH  pos=(0.000,-0.310,1.362) dim=(0.057, 0.098, 0.07) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 00 04                   MESH  pos=(0.000,-0.310,1.362) dim=(0.089, 0.089, 0.07) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 00 05                   MESH  pos=(0.000,-0.310,1.362) dim=(0.098, 0.057, 0.07) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 00 06                   MESH  pos=(0.000,-0.310,1.362) dim=(0.098, 0.057, 0.07) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 00 07                   MESH  pos=(0.000,-0.310,1.362) dim=(0.089, 0.089, 0.07) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 00 08                   MESH  pos=(0.000,-0.310,1.362) dim=(0.057, 0.098, 0.07) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 00 09                   MESH  pos=(0.000,-0.310,1.362) dim=(0.057, 0.098, 0.07) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 00 10                   MESH  pos=(0.000,-0.310,1.362) dim=(0.089, 0.089, 0.07) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 00 11                   MESH  pos=(0.000,-0.310,1.362) dim=(0.098, 0.057, 0.07) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 01 00                   MESH  pos=(0.000,-0.310,1.362) dim=(0.019, 0.057, 0.117) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 01 01                   MESH  pos=(0.000,-0.310,1.362) dim=(0.044, 0.044, 0.117) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 01 02                   MESH  pos=(0.000,-0.310,1.362) dim=(0.057, 0.019, 0.117) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 01 03                   MESH  pos=(0.000,-0.310,1.362) dim=(0.057, 0.019, 0.117) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 01 04                   MESH  pos=(0.000,-0.310,1.362) dim=(0.044, 0.044, 0.117) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 01 05                   MESH  pos=(0.000,-0.310,1.362) dim=(0.019, 0.057, 0.117) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 01 06                   MESH  pos=(0.000,-0.310,1.362) dim=(0.019, 0.057, 0.117) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 01 07                   MESH  pos=(0.000,-0.310,1.362) dim=(0.044, 0.044, 0.117) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 01 08                   MESH  pos=(0.000,-0.310,1.362) dim=(0.057, 0.019, 0.117) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 01 09                   MESH  pos=(0.000,-0.310,1.362) dim=(0.057, 0.019, 0.117) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 01 10                   MESH  pos=(0.000,-0.310,1.362) dim=(0.044, 0.044, 0.117) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 01 11                   MESH  pos=(0.000,-0.310,1.362) dim=(0.019, 0.057, 0.117) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 02 00                   MESH  pos=(0.000,-0.310,1.362) dim=(0.098, 0.057, 0.07) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 02 01                   MESH  pos=(0.000,-0.310,1.362) dim=(0.089, 0.089, 0.07) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 02 02                   MESH  pos=(0.000,-0.310,1.362) dim=(0.057, 0.098, 0.07) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 02 03                   MESH  pos=(0.000,-0.310,1.362) dim=(0.057, 0.098, 0.07) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 02 04                   MESH  pos=(0.000,-0.310,1.362) dim=(0.089, 0.089, 0.07) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 02 05                   MESH  pos=(0.000,-0.310,1.362) dim=(0.098, 0.057, 0.07) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 02 06                   MESH  pos=(0.000,-0.310,1.362) dim=(0.098, 0.057, 0.07) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 02 07                   MESH  pos=(0.000,-0.310,1.362) dim=(0.089, 0.089, 0.07) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 02 08                   MESH  pos=(0.000,-0.310,1.362) dim=(0.057, 0.098, 0.07) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 02 09                   MESH  pos=(0.000,-0.310,1.362) dim=(0.057, 0.098, 0.07) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 02 10                   MESH  pos=(0.000,-0.310,1.362) dim=(0.089, 0.089, 0.07) hide=False RIGID=ACTIVE
+OBJ PHYSICAL EGG SHELL 02 11                   MESH  pos=(0.000,-0.310,1.362) dim=(0.098, 0.057, 0.07) hide=False RIGID=ACTIVE
+OBJ Egg white sticky spread central            MESH  pos=(-0.020,-0.195,1.362) dim=(0.477, 0.026, 0.418) hide=False RIGID=None
+OBJ Egg yolk vivid central                     MESH  pos=(0.022,-0.195,1.349) dim=(0.318, 0.026, 0.313) hide=False RIGID=None
+OBJ Egg white perimeter wet 00                 MESH  pos=(0.250,-0.195,1.359) dim=(0.086, 0.026, 0.066) hide=False RIGID=None
+OBJ Egg white perimeter wet 01                 MESH  pos=(0.147,-0.195,1.524) dim=(0.104, 0.026, 0.084) hide=False RIGID=None
+OBJ Egg white perimeter wet 02                 MESH  pos=(-0.067,-0.195,1.555) dim=(0.073, 0.026, 0.087) hide=False RIGID=None
+OBJ Egg white perimeter wet 03                 MESH  pos=(-0.219,-0.195,1.459) dim=(0.087, 0.026, 0.055) hide=False RIGID=None
+OBJ Egg white perimeter wet 04                 MESH  pos=(-0.217,-0.195,1.263) dim=(0.056, 0.026, 0.053) hide=False RIGID=None
+OBJ Egg white perimeter wet 05                 MESH  pos=(-0.059,-0.195,1.168) dim=(0.061, 0.026, 0.046) hide=False RIGID=None
+OBJ Egg white perimeter wet 06                 MESH  pos=(0.174,-0.195,1.219) dim=(0.108, 0.026, 0.043) hide=False RIGID=None
+OBJ Egg yolk sticky drip 00                    MESH  pos=(0.132,-0.195,0.885) dim=(0.038, 0.026, 0.104) hide=False RIGID=None
+OBJ Egg yolk sticky drip 01                    MESH  pos=(0.085,-0.195,1.058) dim=(0.038, 0.026, 0.104) hide=False RIGID=None
+OBJ Egg yolk sticky drip 02                    MESH  pos=(-0.023,-0.195,1.201) dim=(0.038, 0.026, 0.104) hide=False RIGID=None
+OBJ Egg yolk sticky drip 03                    MESH  pos=(-0.135,-0.195,1.162) dim=(0.038, 0.026, 0.104) hide=False RIGID=None
+OBJ Egg yolk sticky drip 04                    MESH  pos=(0.076,-0.195,1.176) dim=(0.038, 0.026, 0.104) hide=False RIGID=None
+OBJ Egg yolk sticky drip 05                    MESH  pos=(0.028,-0.195,1.064) dim=(0.038, 0.026, 0.104) hide=False RIGID=None
+OBJ DYNAMIC egg droplet 00                     MESH  pos=(0.053,-0.340,1.355) dim=(0.053, 0.055, 0.055) hide=False RIGID=ACTIVE
+OBJ DYNAMIC egg droplet 01                     MESH  pos=(-0.084,-0.340,1.397) dim=(0.073, 0.077, 0.077) hide=False RIGID=ACTIVE
+OBJ DYNAMIC egg droplet 02                     MESH  pos=(0.051,-0.340,1.285) dim=(0.051, 0.054, 0.054) hide=False RIGID=ACTIVE
+OBJ DYNAMIC egg droplet 03                     MESH  pos=(0.003,-0.340,1.313) dim=(0.077, 0.081, 0.081) hide=False RIGID=ACTIVE
+OBJ DYNAMIC egg droplet 04                     MESH  pos=(0.046,-0.340,1.408) dim=(0.052, 0.055, 0.055) hide=False RIGID=ACTIVE
+OBJ DYNAMIC egg droplet 05                     MESH  pos=(0.044,-0.340,1.302) dim=(0.049, 0.051, 0.051) hide=False RIGID=ACTIVE
+OBJ DYNAMIC egg droplet 06                     MESH  pos=(-0.089,-0.340,1.311) dim=(0.056, 0.059, 0.059) hide=False RIGID=ACTIVE
+OBJ DYNAMIC egg droplet 07                     MESH  pos=(-0.026,-0.340,1.334) dim=(0.082, 0.086, 0.086) hide=False RIGID=ACTIVE
+OBJ DYNAMIC egg droplet 08                     MESH  pos=(-0.039,-0.340,1.329) dim=(0.081, 0.085, 0.085) hide=False RIGID=ACTIVE
+OBJ DYNAMIC egg droplet 09                     MESH  pos=(0.039,-0.340,1.436) dim=(0.055, 0.058, 0.058) hide=False RIGID=ACTIVE
+OBJ DYNAMIC egg droplet 10                     MESH  pos=(0.074,-0.340,1.280) dim=(0.079, 0.083, 0.083) hide=False RIGID=ACTIVE
+OBJ DYNAMIC egg droplet 11                     MESH  pos=(0.055,-0.340,1.356) dim=(0.062, 0.066, 0.066) hide=False RIGID=ACTIVE
+OBJ DYNAMIC egg droplet 12                     MESH  pos=(-0.002,-0.340,1.431) dim=(0.063, 0.066, 0.066) hide=False RIGID=ACTIVE
+OBJ DYNAMIC egg droplet 13                     MESH  pos=(0.034,-0.340,1.344) dim=(0.056, 0.059, 0.059) hide=False RIGID=ACTIVE
+OBJ DYNAMIC egg droplet 14                     MESH  pos=(-0.070,-0.340,1.281) dim=(0.085, 0.089, 0.089) hide=False RIGID=ACTIVE
+OBJ DYNAMIC egg droplet 15                     MESH  pos=(0.080,-0.340,1.279) dim=(0.07, 0.074, 0.074) hide=False RIGID=ACTIVE
+FRAME 60 CAM pos [1.65, -5.1, 1.69] rot [1.508, -0.0, 0.337] lens 31.00
+FRAME 84 CAM pos [1.65, -5.1, 1.69] rot [1.508, -0.0, 0.337] lens 31.00
+FRAME 108 CAM pos [1.65, -5.1, 1.69] rot [1.508, -0.0, 0.337] lens 31.00
+ALL OBJECTS NAMES:
+CONCRETE FLOOR
+STATIC surrounding wall 0 0
+STATIC surrounding wall 0 1
+STATIC surrounding wall 0 2
+STATIC surrounding wall 0 3
+STATIC surrounding wall 0 4
+STATIC surrounding wall 0 5
+STATIC surrounding wall 0 6
+STATIC surrounding wall 0 7
+STATIC surrounding wall 0 8
+STATIC surrounding wall 0 9
+STATIC surrounding wall 0 10
+STATIC surrounding wall 0 11
+STATIC surrounding wall 1 0
+STATIC surrounding wall 1 1
+STATIC surrounding wall 1 2
+STATIC surrounding wall 1 3
+STATIC surrounding wall 1 4
+STATIC surrounding wall 1 5
+STATIC surrounding wall 1 6
+STATIC surrounding wall 1 7
+STATIC surrounding wall 1 8
+STATIC surrounding wall 1 9
+STATIC surrounding wall 1 10
+STATIC surrounding wall 2 0
+STATIC surrounding wall 2 1
+STATIC surrounding wall 2 2
+STATIC surrounding wall 2 3
+STATIC surrounding wall 2 4
+STATIC surrounding wall 2 5
+STATIC surrounding wall 2 6
+STATIC surrounding wall 2 7
+STATIC surrounding wall 2 8
+STATIC surrounding wall 2 9
+STATIC surrounding wall 2 10
+STATIC surrounding wall 2 11
+STATIC surrounding wall 3 0
+STATIC surrounding wall 3 1
+STATIC surrounding wall 3 2
+STATIC surrounding wall 3 3
+STATIC surrounding wall 3 4
+STATIC surrounding wall 3 5
+STATIC surrounding wall 3 6
+STATIC surrounding wall 3 7
+STATIC surrounding wall 3 8
+STATIC surrounding wall 3 9
+STATIC surrounding wall 3 10
+STATIC surrounding wall 4 0
+STATIC surrounding wall 4 1
+STATIC surrounding wall 4 2
+STATIC surrounding wall 4 3
+STATIC surrounding wall 4 4
+STATIC surrounding wall 4 5
+STATIC surrounding wall 4 6
+STATIC surrounding wall 4 7
+STATIC surrounding wall 4 8
+STATIC surrounding wall 4 9
+STATIC surrounding wall 4 10
+STATIC surrounding wall 4 11
+STATIC surrounding wall 5 0
+STATIC surrounding wall 5 1
+STATIC surrounding wall 5 2
+STATIC surrounding wall 5 3
+STATIC surrounding wall 5 4
+STATIC surrounding wall 5 5
+STATIC surrounding wall 5 6
+STATIC surrounding wall 5 7
+STATIC surrounding wall 5 8
+STATIC surrounding wall 5 9
+STATIC surrounding wall 5 10
+STATIC surrounding wall 6 0
+STATIC surrounding wall 6 1
+STATIC surrounding wall 6 2
+STATIC surrounding wall 6 3
+STATIC surrounding wall 6 4
+STATIC surrounding wall 6 5
+STATIC surrounding wall 6 6
+STATIC surrounding wall 6 7
+STATIC surrounding wall 6 8
+STATIC surrounding wall 6 9
+STATIC surrounding wall 6 10
+STATIC surrounding wall 6 11
+STATIC surrounding wall 7 0
+STATIC surrounding wall 7 1
+STATIC surrounding wall 7 2
+STATIC surrounding wall 7 3
+STATIC surrounding wall 7 4
+STATIC surrounding wall 7 5
+STATIC surrounding wall 7 6
+STATIC surrounding wall 7 7
+STATIC surrounding wall 7 8
+STATIC surrounding wall 7 9
+STATIC surrounding wall 7 10
+STATIC surrounding wall 8 0
+STATIC surrounding wall 8 1
+STATIC surrounding wall 8 2
+STATIC surrounding wall 8 3
+STATIC surrounding wall 8 4
+STATIC surrounding wall 8 5
+STATIC surrounding wall 8 6
+STATIC surrounding wall 8 7
+STATIC surrounding wall 8 8
+STATIC surrounding wall 8 9
+STATIC surrounding wall 8 10
+STATIC surrounding wall 8 11
+STATIC surrounding wall 9 0
+STATIC surrounding wall 9 1
+STATIC surrounding wall 9 2
+STATIC surrounding wall 9 3
+STATIC surrounding wall 9 4
+STATIC surrounding wall 9 5
+STATIC surrounding wall 9 6
+STATIC surrounding wall 9 7
+STATIC surrounding wall 9 8
+STATIC surrounding wall 9 9
+STATIC surrounding wall 9 10
+Wall concrete footing
+PHYSICS EGG SHELL BEFORE IMPACT
+PHYSICAL EGG SHELL 00 00
+PHYSICAL EGG SHELL 00 01
+PHYSICAL EGG SHELL 00 02
+PHYSICAL EGG SHELL 00 03
+PHYSICAL EGG SHELL 00 04
+PHYSICAL EGG SHELL 00 05
+PHYSICAL EGG SHELL 00 06
+PHYSICAL EGG SHELL 00 07
+PHYSICAL EGG SHELL 00 08
+PHYSICAL EGG SHELL 00 09
+PHYSICAL EGG SHELL 00 10
+PHYSICAL EGG SHELL 00 11
+PHYSICAL EGG SHELL 01 00
+PHYSICAL EGG SHELL 01 01
+PHYSICAL EGG SHELL 01 02
+PHYSICAL EGG SHELL 01 03
+PHYSICAL EGG SHELL 01 04
+PHYSICAL EGG SHELL 01 05
+PHYSICAL EGG SHELL 01 06
+PHYSICAL EGG SHELL 01 07
+PHYSICAL EGG SHELL 01 08
+PHYSICAL EGG SHELL 01 09
+PHYSICAL EGG SHELL 01 10
+PHYSICAL EGG SHELL 01 11
+PHYSICAL EGG SHELL 02 00
+PHYSICAL EGG SHELL 02 01
+PHYSICAL EGG SHELL 02 02
+PHYSICAL EGG SHELL 02 03
+PHYSICAL EGG SHELL 02 04
+PHYSICAL EGG SHELL 02 05
+PHYSICAL EGG SHELL 02 06
+PHYSICAL EGG SHELL 02 07
+PHYSICAL EGG SHELL 02 08
+PHYSICAL EGG SHELL 02 09
+PHYSICAL EGG SHELL 02 10
+PHYSICAL EGG SHELL 02 11
+Egg white sticky spread central
+Egg yolk vivid central
+Egg white perimeter wet 00
+Egg white perimeter wet 01
+Egg white perimeter wet 02
+Egg white perimeter wet 03
+Egg white perimeter wet 04
+Egg white perimeter wet 05
+Egg white perimeter wet 06
+Egg yolk sticky drip 00
+Egg yolk sticky drip 01
+Egg yolk sticky drip 02
+Egg yolk sticky drip 03
+Egg yolk sticky drip 04
+Egg yolk sticky drip 05
+DYNAMIC egg droplet 00
+DYNAMIC egg droplet 01
+DYNAMIC egg droplet 02
+DYNAMIC egg droplet 03
+DYNAMIC egg droplet 04
+DYNAMIC egg droplet 05
+DYNAMIC egg droplet 06
+DYNAMIC egg droplet 07
+DYNAMIC egg droplet 08
+DYNAMIC egg droplet 09
+DYNAMIC egg droplet 10
+DYNAMIC egg droplet 11
+DYNAMIC egg droplet 12
+DYNAMIC egg droplet 13
+DYNAMIC egg droplet 14
+DYNAMIC egg droplet 15
+CINEMATIC CAMERA
+Warm courtyard reflected light
+Wide cool environment fill
+Thin crisp specular rim
+Pale afternoon sun
+CINEMATIC DUST / post-impact
