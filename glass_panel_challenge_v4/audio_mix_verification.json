@@ -1,0 +1,12 @@
+{
+  "duration": 8,
+  "sample_rate": 48000,
+  "source": "Mixkit free sound effects (original local files excluded from Git)",
+  "source_assets": 5,
+  "impact_count": 17,
+  "first_impact_seconds": 2.375,
+  "stopping_impact_seconds": 6.416666666666667,
+  "peak": 0.4310080111026764,
+  "rms": 0.050810009241104126,
+  "file": "GLASS_V4_RECORDED_SFX_MIX.wav"
+}

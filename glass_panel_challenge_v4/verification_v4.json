@@ -1,0 +1,54 @@
+{
+  "result": "PASS",
+  "video": "GLASS_20_PANELS_8SEC_V4.mp4",
+  "duration_seconds": 8,
+  "fps": 24,
+  "frames": 192,
+  "resolution": "720x1280",
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "broken": 17,
+  "stopped_at": 18,
+  "source_png_decoded": 192,
+  "full_video_decoded": true,
+  "sample_frames": {
+    "1": {
+      "avg": 112.92,
+      "contrast": 56.21
+    },
+    "32": {
+      "avg": 114.46,
+      "contrast": 56.63
+    },
+    "42": {
+      "avg": 114.41,
+      "contrast": 56.66
+    },
+    "57": {
+      "avg": 101.38,
+      "contrast": 44.74
+    },
+    "72": {
+      "avg": 114.7,
+      "contrast": 54.87
+    },
+    "146": {
+      "avg": 92.89,
+      "contrast": 44.22
+    },
+    "154": {
+      "avg": 84.57,
+      "contrast": 48.49
+    },
+    "192": {
+      "avg": 84.53,
+      "contrast": 48.52
+    }
+  },
+  "comparison_html_sources": [
+    "../glass_panel_challenge_v3/GLASS_20_PANELS_8SEC_V3.mp4",
+    "GLASS_20_PANELS_8SEC_V4.mp4"
+  ],
+  "sound": "mixed from 5 recorded free-use stock clips; source WAV excluded from Git",
+  "known_limitation": "stylized procedural animation; no claim of photorealism or physically exact breakage"
+}

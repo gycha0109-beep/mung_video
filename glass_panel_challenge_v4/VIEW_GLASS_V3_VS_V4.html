@@ -1,0 +1,38 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GLASS RUN | V3와 V4 비교</title><style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#0b1016;color:#e9f0f7;font:15px system-ui,'Malgun Gothic',sans-serif;padding:20px}
+main{max-width:1180px;margin:auto}h1{font-size:1.65rem}h2{font-size:1.1rem}p{line-height:1.6;color:#b9c6d4}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}button{background:#244258;color:white;border:1px solid #6891aa;border-radius:9px;padding:10px 13px;cursor:pointer}
+button:focus-visible{outline:2px solid #d6efff}button:disabled{opacity:.4}
+.panels{display:grid;grid-template-columns:1fr 1fr;gap:16px}.pane{background:#162331;padding:12px;border-radius:12px;border:1px solid #324557}
+video{width:100%;max-height:740px;object-fit:contain;background:#080b10;border-radius:8px;display:block}
+.info{font-size:.94rem;color:#b4c3ce}.status{font-size:.92rem;color:#b9dbef;margin-bottom:12px}
+.story{width:100%;border-radius:9px}a{color:#a2d8ff}@media(max-width:740px){body{padding:8px}.panels{gap:7px}.pane{padding:5px}h2{font-size:.95rem}}
+</style></head><body><main>
+<h1>유리판 20장 관통 — V3 / V4</h1>
+<p>동일한 8초, 720×1280, 24fps. V4는 쇠구슬을 당기는 장면부터 시작하고, 자연광 느낌의 재질 및 실제 녹음 효과음을 적용한 개선 시안입니다. 실사 촬영물이나 정밀 물리 검증 영상은 아닙니다.</p>
+<div class="toolbar">
+<button id="start">처음부터 동시 재생</button><button id="hit">첫 충돌부터 재생</button><button id="pause">정지</button>
+<button id="v3audio">V3 소리 듣기</button><button id="v4audio">V4 소리 듣기</button>
+</div><div class="status" id="status">두 영상을 준비하고 있습니다.</div>
+<div class="panels">
+<section class="pane"><h2>V3 · 이전 버전</h2><video id="v3" playsinline controls preload="metadata" muted src="../glass_panel_challenge_v3/GLASS_20_PANELS_8SEC_V3.mp4"></video><p class="info">고정된 새총 구간 · 합성음 · 푸른 실험실</p></section>
+<section class="pane"><h2>V4 · 이번 개선 시안</h2><video id="v4" playsinline controls preload="metadata" src="GLASS_20_PANELS_8SEC_V4.mp4"></video><p class="info">구슬을 당긴 뒤 발사 · 실제 녹음된 충돌음 · 중립 조명</p></section>
+</div>
+<h2>V4 장면 흐름</h2><img class="story" src="STORYBOARD.jpg" alt="새총 당김, 연속 유리 파손, 마지막 정지 장면">
+<p><a href="VIEW_GLASS_CHALLENGE_V4.html">V4 단독 영상</a> · <a href="../glass_panel_challenge_v3/VIEW_GLASS_CHALLENGE_V3.html">V3 단독 영상</a></p>
+</main><script>
+const old=document.querySelector('#v3'),fresh=document.querySelector('#v4'),status=document.querySelector('#status');
+function setSound(which){old.muted=which!=='v3';fresh.muted=which!=='v4';status.textContent=(which==='v3'?'V3':'V4')+' 소리 선택됨';}
+async function replay(at){
+  [old,fresh].forEach(v=>v.pause());
+  [old,fresh].forEach(v=>{v.currentTime=Math.min(at,Math.max(0,(v.duration||8)-.01));});
+  const r=await Promise.allSettled([old.play(),fresh.play()]);
+  status.textContent=r.every(x=>x.status==='fulfilled')?'동시 재생 중':'재생 권한 또는 파일 경로를 확인하세요';
+}
+document.querySelector('#start').onclick=()=>replay(0);
+document.querySelector('#hit').onclick=()=>replay(57/24);
+document.querySelector('#pause').onclick=()=>{old.pause();fresh.pause();status.textContent='정지됨'};
+document.querySelector('#v3audio').onclick=()=>setSound('v3');
+document.querySelector('#v4audio').onclick=()=>setSound('v4');
+Promise.allSettled([new Promise((r,j)=>{if(old.readyState>=1)r();else {old.onloadedmetadata=r;old.onerror=j}}),new Promise((r,j)=>{if(fresh.readyState>=1)r();else{fresh.onloadedmetadata=r;fresh.onerror=j}})]).then(results=>{status.textContent=results.every(x=>x.status==='fulfilled')?'영상 두 개 모두 로드됨 · V4 소리 선택됨':'영상 파일 경로를 확인하세요'});
+</script></body></html>

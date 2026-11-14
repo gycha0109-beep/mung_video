@@ -36,3 +36,13 @@
 **/*.exit
 **/frames_titled/
 **/preview/
+
+# Licensed stock sound files (do not redistribute as standalone assets)
+**/assets_local/
+**/preview_final/
+**/GLASS_V4_RECORDED_SFX_MIX.wav
+**/GLASS_20_PANEL_CHALLENGE_V4_PREVIEW.blend
+**/GLASS_20_PANEL_CHALLENGE_V4_1.blend
+**/GLASS_20_PANEL_CHALLENGE_V4_2.blend
+**/finish_local_v3.ps1
+**/v3_pipeline_status.txt
