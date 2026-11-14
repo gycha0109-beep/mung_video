@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "scope": "V6 slingshot-to-single-glass 3.5s quality demo",
+  "frame_count": 84,
+  "fps": 24,
+  "size": [
+    720,
+    1280
+  ],
+  "duration_seconds": 3.5,
+  "codec_video": "h264",
+  "codec_audio": "aac",
+  "decoded_all": true,
+  "audio": "Mixkit licensed stock effects mixed into the final video",
+  "video": "V6_LAUNCH_GLASS_3P5S.mp4",
+  "video_bytes": 1081555,
+  "sample_measurements": {
+    "1": {
+      "brightness": 146.22,
+      "contrast": 50.23
+    },
+    "24": {
+      "brightness": 141.36,
+      "contrast": 53.36
+    },
+    "32": {
+      "brightness": 140.4,
+      "contrast": 53.96
+    },
+    "43": {
+      "brightness": 147.66,
+      "contrast": 47.23
+    },
+    "46": {
+      "brightness": 149.13,
+      "contrast": 47.88
+    },
+    "55": {
+      "brightness": 146.32,
+      "contrast": 44.84
+    },
+    "84": {
+      "brightness": 145.95,
+      "contrast": 40.2
+    }
+  },
+  "limitations": "Artist-animated glass shards, not a measured shatter solver; 1 pane, not 20."
+}

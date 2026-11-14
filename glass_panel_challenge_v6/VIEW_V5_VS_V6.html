@@ -1,0 +1,37 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>V6 품질 개선 — 새총 발사와 유리 파손</title><style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;padding:18px;background:#0b1017;color:#edf4fa;font-family:system-ui,"Malgun Gothic",sans-serif}main{max-width:1170px;margin:auto}
+h1{font-size:1.65rem;margin:4px 0 9px}h2{font-size:1.15rem}p{color:#bac8d6;line-height:1.65} .content{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.panel{border-radius:14px;background:#152231;border:1px solid #34485d;padding:14px}
+video{width:100%;max-height:720px;display:block;background:#05080c;border-radius:8px;object-fit:contain}
+.toolbar{margin:14px 0;display:flex;gap:8px;flex-wrap:wrap}
+button{background:#20465f;color:#f2f8ff;border:1px solid #7a9aaf;border-radius:8px;padding:11px 13px;cursor:pointer}
+button:focus-visible{outline:2px solid white}img{width:100%;border-radius:9px}a{color:#a4d7ff}
+.status{font-size:.9rem;color:#b7d8ed}.meta{font-size:.9rem;color:#c1cfda}
+@media(max-width:720px){body{padding:8px}.content{grid-template-columns:1fr}h1{font-size:1.3rem}}
+</style></head><body><main>
+<h1>V6 — 새총부터 유리 파손까지 품질 비교</h1>
+<p>왼쪽은 V5의 단일 유리판 시험이고, 오른쪽은 이번에 제작한 3.5초 연속 장면입니다. V6는 구슬 당김·발사·카메라 추적과 파편의 단계별 이동을 한 장면으로 제작했습니다. 실사 촬영이나 정밀 파괴 실험은 아닙니다.</p>
+<div class="toolbar">
+<button id="start">두 영상 처음부터 재생</button><button id="impact">충돌 순간부터 비교</button><button id="pause">모두 정지</button>
+<button id="sound5">V5 소리</button><button id="sound6">V6 소리</button>
+</div><div class="status" id="status">영상을 불러오는 중입니다.</div>
+<div class="content">
+<section class="panel"><h2>V5 · 이전 유리 파손 시험</h2>
+<video id="v5" controls playsinline preload="metadata" muted src="../glass_panel_challenge_v5/V5_ONE_PANE_QUALITY_PROOF.mp4"></video>
+<p class="meta">1.5초 · 504×896 · 유리판 한 장만</p></section>
+<section class="panel"><h2>V6 · 이번 개선 시험</h2>
+<video id="v6" controls playsinline preload="metadata" src="V6_LAUNCH_GLASS_3P5S.mp4"></video>
+<p class="meta">3.5초 · 720×1280 · 실제 새총 당김 → 발사 → 유리 충돌 → 파편 낙하</p></section>
+</div>
+<h2>V6 장면 흐름</h2><img src="STORYBOARD_V6.jpg" alt="새총을 당기는 장면부터 유리 파손과 파편 낙하까지 12컷">
+<p>작업 범위는 품질 확인용 유리판 한 장입니다. 기존 유리판 20장 영상은 V4에 그대로 보존되어 있습니다.</p>
+</main><script>
+const a=document.querySelector('#v5'),b=document.querySelector('#v6'),status=document.querySelector('#status');
+let ready=0; for(const v of [a,b]){v.onloadedmetadata=()=>{ready++;status.textContent=ready===2?'두 영상 로드됨 · V6 소리 선택됨':'영상 파일을 확인 중입니다.'};v.onerror=()=>{status.textContent='영상 파일 로딩 오류'};}
+function play(x,y){a.pause();b.pause();a.currentTime=x;b.currentTime=y;Promise.allSettled([a.play(),b.play()]).then(r=>{status.textContent=r.every(x=>x.status==='fulfilled')?'재생 중':'브라우저의 미디어 재생 제한을 확인하세요';});}
+document.querySelector('#start').onclick=()=>play(0,0);
+document.querySelector('#impact').onclick=()=>play(12/24,43/24);
+document.querySelector('#pause').onclick=()=>{a.pause();b.pause();status.textContent='정지됨';};
+document.querySelector('#sound5').onclick=()=>{a.muted=false;b.muted=true;status.textContent='V5 소리 선택됨';};
+document.querySelector('#sound6').onclick=()=>{a.muted=true;b.muted=false;status.textContent='V6 소리 선택됨';};
+</script></body></html>

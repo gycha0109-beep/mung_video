@@ -1,0 +1,13 @@
+{
+  "frames": 84,
+  "fps": 24,
+  "resolution": [
+    720,
+    1280
+  ],
+  "impact_frame": 43,
+  "fragments": 96,
+  "microchips": 185,
+  "scope": "full slingshot-to-one-pane shot",
+  "note": "Art-directable ballistic keyframes, not measured fracture mechanics"
+}
