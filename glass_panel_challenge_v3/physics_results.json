@@ -1,0 +1,178 @@
+{
+  "seed": 20261114,
+  "total": 20,
+  "broken": 17,
+  "remaining": 3,
+  "stop_pane": 18,
+  "frames": 192,
+  "fps": 24,
+  "resolution": [
+    720,
+    1280
+  ],
+  "break_events": [
+    {
+      "number": 1,
+      "frame": 57,
+      "y": 0.0,
+      "required_energy": 3.756,
+      "energy_after": 108.244,
+      "broken": true
+    },
+    {
+      "number": 2,
+      "frame": 60,
+      "y": 1.65,
+      "required_energy": 4.31,
+      "energy_after": 103.934,
+      "broken": true
+    },
+    {
+      "number": 3,
+      "frame": 64,
+      "y": 3.3,
+      "required_energy": 4.801,
+      "energy_after": 99.134,
+      "broken": true
+    },
+    {
+      "number": 4,
+      "frame": 67,
+      "y": 4.949999999999999,
+      "required_energy": 4.843,
+      "energy_after": 94.291,
+      "broken": true
+    },
+    {
+      "number": 5,
+      "frame": 72,
+      "y": 6.6,
+      "required_energy": 4.912,
+      "energy_after": 89.378,
+      "broken": true
+    },
+    {
+      "number": 6,
+      "frame": 76,
+      "y": 8.25,
+      "required_energy": 5.134,
+      "energy_after": 84.245,
+      "broken": true
+    },
+    {
+      "number": 7,
+      "frame": 81,
+      "y": 9.899999999999999,
+      "required_energy": 5.839,
+      "energy_after": 78.406,
+      "broken": true
+    },
+    {
+      "number": 8,
+      "frame": 86,
+      "y": 11.549999999999999,
+      "required_energy": 5.812,
+      "energy_after": 72.594,
+      "broken": true
+    },
+    {
+      "number": 9,
+      "frame": 91,
+      "y": 13.2,
+      "required_energy": 6.504,
+      "energy_after": 66.09,
+      "broken": true
+    },
+    {
+      "number": 10,
+      "frame": 97,
+      "y": 14.85,
+      "required_energy": 6.326,
+      "energy_after": 59.764,
+      "broken": true
+    },
+    {
+      "number": 11,
+      "frame": 103,
+      "y": 16.5,
+      "required_energy": 6.995,
+      "energy_after": 52.768,
+      "broken": true
+    },
+    {
+      "number": 12,
+      "frame": 109,
+      "y": 18.15,
+      "required_energy": 7.266,
+      "energy_after": 45.502,
+      "broken": true
+    },
+    {
+      "number": 13,
+      "frame": 116,
+      "y": 19.799999999999997,
+      "required_energy": 7.446,
+      "energy_after": 38.056,
+      "broken": true
+    },
+    {
+      "number": 14,
+      "frame": 123,
+      "y": 21.45,
+      "required_energy": 7.662,
+      "energy_after": 30.394,
+      "broken": true
+    },
+    {
+      "number": 15,
+      "frame": 130,
+      "y": 23.099999999999998,
+      "required_energy": 7.862,
+      "energy_after": 22.531,
+      "broken": true
+    },
+    {
+      "number": 16,
+      "frame": 138,
+      "y": 24.75,
+      "required_energy": 8.072,
+      "energy_after": 14.459,
+      "broken": true
+    },
+    {
+      "number": 17,
+      "frame": 146,
+      "y": 26.4,
+      "required_energy": 8.334,
+      "energy_after": 6.126,
+      "broken": true
+    },
+    {
+      "number": 18,
+      "frame": 154,
+      "y": 28.049999999999997,
+      "required_energy": 8.564,
+      "energy_after": 6.126,
+      "broken": false
+    },
+    {
+      "number": 19,
+      "frame": 163,
+      "y": 29.7,
+      "required_energy": 9.285,
+      "energy_after": 6.126,
+      "broken": false
+    },
+    {
+      "number": 20,
+      "frame": 172,
+      "y": 31.349999999999998,
+      "required_energy": 9.357,
+      "energy_after": 6.126,
+      "broken": false
+    }
+  ],
+  "shards": 1258,
+  "scene": "GLASS_20_PANEL_CHALLENGE_V3.blend",
+  "note": "V3 variable-thickness fragments and dithered glass, radial fissures and small secondary splinters. Energy model simplified, no coupled stress solver."
+}
