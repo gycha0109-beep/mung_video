@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "scope": "single glass-pane quality proof only",
+  "fps": 24,
+  "duration": 1.5,
+  "frames": 36,
+  "resolution": "504x896 test render",
+  "video": "V5_ONE_PANE_QUALITY_PROOF.mp4",
+  "source_sounds": "Mixkit, sourced locally from V4 and not redistributed separately",
+  "note": "This is not V5 full twenty-pane video and does not yet meet confirmed photoreal standard"
+}

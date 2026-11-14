@@ -46,3 +46,6 @@
 **/GLASS_20_PANEL_CHALLENGE_V4_2.blend
 **/finish_local_v3.ps1
 **/v3_pipeline_status.txt
+
+# Recorded stock-audio preview mix remains local, only finished video may be distributed
+glass_panel_challenge_v5/V5_ONE_PANE_AUDIO_MIX.wav

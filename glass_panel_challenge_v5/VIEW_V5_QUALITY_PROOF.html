@@ -1,0 +1,25 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>유리 파손 품질 비교 V4 ↔ V5 단일 유리판</title><style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{background:#0b1016;color:#eff4f8;font-family:system-ui,"Malgun Gothic",sans-serif;margin:0;padding:22px}
+main{max-width:1100px;margin:auto}h1{font-size:1.6rem;margin:0 0 8px}p{color:#b4c5d6;line-height:1.65}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.panel{background:#15212e;border:1px solid #32475a;border-radius:14px;padding:14px}
+video{display:block;width:min(100%,430px);margin:auto;background:#090c11;max-height:735px;border-radius:8px}
+h2{font-size:1.13rem}button{background:#244760;color:#fff;border:1px solid #7192a5;border-radius:9px;padding:10px 14px;margin:7px 0;cursor:pointer}
+img{width:100%;border-radius:8px}small{color:#b9c8d5}@media(max-width:680px){body{padding:8px}.grid{grid-template-columns:1fr}h1{font-size:1.35rem}}
+</style></head><body><main>
+<h1>유리 파손 재설계 · V5 품질 시험</h1>
+<p>전체 영상을 또 만든 것이 아닙니다. 기존 V4에서 특히 엉성했던 유리 하나의 반사·굴절·균열·파편을 새로 제작해 약 1.5초만 검증하는 작업입니다. 아직 실사급 최종 결과가 아닙니다.</p>
+<div class="grid"><section class="panel"><h2>기존 V4 · 전체 영상 (8초)</h2>
+<video controls playsinline preload="metadata" id="v4" src="../glass_panel_challenge_v4/GLASS_20_PANELS_8SEC_V4.mp4"></video>
+<p><small>기존 투명도 흉내, 얇게 보이지 않는 파편, 멀리서 보는 카메라</small></p>
+<button id="v4impact">V4 첫 충돌 구간 재생</button></section>
+<section class="panel"><h2>새 V5 · 한 장 품질 시험 (1.5초)</h2>
+<video controls playsinline preload="metadata" id="v5" src="V5_ONE_PANE_QUALITY_PROOF.mp4" loop></video>
+<p><small>실제 굴절을 계산하는 렌더링, 베벨을 준 유리 단면, 미세 균열과 충격 후 이동</small></p>
+<button id="v5replay">V5 다시 재생</button></section></div>
+<h2>전후 변화 6개 프레임</h2><img src="V5_QUALITY_STORYBOARD.jpg" alt="충돌 전, 최초 균열, 충돌, 확산, 낙하, 잔해">
+<p>이 장면의 품질을 평가한 뒤 새총, 다중 유리판, 카메라 환경을 재제작할 계획입니다. 기존 V4는 보존돼 있습니다.</p>
+</main><script>
+const a=document.querySelector('#v4'),b=document.querySelector('#v5');
+document.querySelector('#v4impact').onclick=()=>{a.currentTime=2.2;a.play()};
+document.querySelector('#v5replay').onclick=()=>{b.currentTime=0;b.play()};
+</script></body></html>
