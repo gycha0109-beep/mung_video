@@ -1,0 +1,14 @@
+{
+  "frames": 84,
+  "fps": 24,
+  "resolution": [
+    720,
+    1280
+  ],
+  "impact_frame": 38,
+  "glass_panels": 1,
+  "rigid_body_fragments": 140,
+  "micro_shards": 135,
+  "fracture_shape": "radial spiderweb with branching concentric cells",
+  "method": "native Blender active rigidbody with animated kinematic release, real glass transmission and studio HDRI"
+}

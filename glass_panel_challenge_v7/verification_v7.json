@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "type": "single-pane advanced physics quality test",
+  "video": "V7_GLASS_SHATTER_3P5SEC.mp4",
+  "video_bytes": 1121355,
+  "resolution": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "duration_seconds": 3.5,
+  "frames": 84,
+  "codec_video": "h264",
+  "codec_audio": "aac",
+  "all_png_decoded": true,
+  "full_mp4_decode": true,
+  "sample_frames": {
+    "1": {
+      "brightness": 145.26,
+      "contrast": 35.34
+    },
+    "28": {
+      "brightness": 145.04,
+      "contrast": 35.7
+    },
+    "36": {
+      "brightness": 144.29,
+      "contrast": 35.77
+    },
+    "38": {
+      "brightness": 147.32,
+      "contrast": 38.06
+    },
+    "40": {
+      "brightness": 147.51,
+      "contrast": 37.92
+    },
+    "43": {
+      "brightness": 147.0,
+      "contrast": 37.54
+    },
+    "48": {
+      "brightness": 147.3,
+      "contrast": 36.71
+    },
+    "54": {
+      "brightness": 146.03,
+      "contrast": 39.58
+    },
+    "66": {
+      "brightness": 143.88,
+      "contrast": 33.13
+    },
+    "84": {
+      "brightness": 143.74,
+      "contrast": 32.29
+    }
+  },
+  "limitations": "Pre-designed crack shapes; Blender rigid-body gravity after release, not physically measured crack propagation; one pane only"
+}

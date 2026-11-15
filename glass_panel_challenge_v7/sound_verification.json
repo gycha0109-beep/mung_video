@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "source": "Mixkit sound recordings kept locally; incorporated in finished audio-visual work only",
+  "sample_rate": 48000,
+  "channels": 2,
+  "seconds": 3.5,
+  "peak": 0.68091,
+  "rms": 0.04516,
+  "impact_seconds": 1.5833
+}

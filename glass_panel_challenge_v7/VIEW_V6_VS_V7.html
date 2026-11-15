@@ -1,0 +1,52 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>V7 유리 파손 품질 개선 — V6 비교</title>
+<style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;padding:22px;background:#0c1218;color:#ebf4f8;font:15px system-ui,"Malgun Gothic",sans-serif}
+main{max-width:1120px;margin:auto}h1{font-size:1.6rem;margin:0 0 12px}h2{font-size:1.05rem}
+p{color:#b7c9d6;line-height:1.6}.grid{display:grid;grid-template-columns:1fr 1fr;gap:17px}
+.panel{background:#17242d;border:1px solid #384c5a;padding:13px;border-radius:13px}
+video{width:100%;height:650px;max-height:72vh;background:#080b0d;object-fit:contain;border-radius:9px}
+.tools{display:flex;flex-wrap:wrap;gap:7px;margin:13px 0}
+button{border:1px solid #728d9c;background:#24465d;color:#edf9ff;cursor:pointer;border-radius:8px;padding:10px 12px}
+button:hover{background:#315d7a}.status{color:#acd7ea;margin:12px 0}
+img{width:100%;border-radius:9px}.sub{color:#b6c6ce;font-size:.9rem}
+@media(max-width:740px){body{padding:9px}.grid{grid-template-columns:1fr}video{height:430px}h1{font-size:1.32rem}}
+</style></head><body><main>
+<h1>V7 · 유리판 파손 품질 시험</h1>
+<p>이번 버전은 **미리 정한 이동 경로로 파편을 흩뿌리는 방식** 대신, 파편을 실제로 분리한 후 Blender 강체 물리에 맡기는 장면입니다. 유리의 굴절, 파편 가장자리, 촬영 조명을 새로 제작했습니다. 실측 파괴 실험이나 최종 20장 영상은 아닙니다.</p>
+<div class="tools">
+<button id="begin">둘 다 처음부터 재생</button>
+<button id="impact">첫 충돌 순간 맞춰 재생</button>
+<button id="stop">정지</button>
+<button id="only6">V6 소리</button>
+<button id="only7">V7 소리</button>
+</div>
+<div id="status" class="status">비교 영상을 준비하고 있습니다.</div>
+<div class="grid">
+<section class="panel"><h2>V6 · 기존 파손 연출</h2>
+<video id="v6" playsinline controls muted preload="metadata" src="../glass_panel_challenge_v6/V6_LAUNCH_GLASS_3P5S.mp4"></video>
+<p class="sub">새총 당김과 발사 포함 · 3.5초</p>
+</section>
+<section class="panel"><h2>V7 · 새로운 강체 파손 시험</h2>
+<video id="v7" playsinline controls preload="metadata" src="V7_GLASS_SHATTER_3P5SEC.mp4"></video>
+<p class="sub">유리판 한 장 고품질 촬영 · 3.5초</p>
+</section></div>
+<h2>V7 장면별 확인</h2><img src="V7_STORYBOARD.jpg" alt="유리 충돌 전, 균열 확산, 파편 분리, 바닥 낙하">
+<p>V7의 목표는 유리 파손 자체의 품질 검증입니다. 유리판 20장 연속 관통과 새총 당김 전체 구간은 이 시안에서 제작하지 않았습니다.</p>
+<script>
+const a=document.querySelector('#v6'),b=document.querySelector('#v7'),state=document.querySelector('#status');
+function audio(which){a.muted=(which!=='6');b.muted=(which!=='7');state.textContent='V'+which+' 소리 선택';}
+async function play(x,y){
+  a.pause();b.pause();
+  a.currentTime=x;b.currentTime=y;
+  const r=await Promise.allSettled([a.play(),b.play()]);
+  state.textContent=r.every(v=>v.status==='fulfilled')?'두 영상 재생 중':'일부 영상 재생 제한 또는 파일 누락';
+}
+document.querySelector('#begin').onclick=()=>play(0,0);
+document.querySelector('#impact').onclick=()=>play(43/24,38/24);
+document.querySelector('#stop').onclick=()=>{a.pause();b.pause();state.textContent='일시정지';};
+document.querySelector('#only6').onclick=()=>audio('6');
+document.querySelector('#only7').onclick=()=>audio('7');
+Promise.allSettled([new Promise((ok,bad)=>{if(a.readyState>=1)ok();else{a.onloadedmetadata=ok;a.onerror=bad;}}),
+  new Promise((ok,bad)=>{if(b.readyState>=1)ok();else{b.onloadedmetadata=ok;b.onerror=bad;}})])
+ .then(x=>state.textContent=x.every(v=>v.status==='fulfilled')?'영상 두 개 로드 완료 · V7 소리 선택됨':'파일 또는 재생 환경을 확인해 주세요');
+</script></main></body></html>
